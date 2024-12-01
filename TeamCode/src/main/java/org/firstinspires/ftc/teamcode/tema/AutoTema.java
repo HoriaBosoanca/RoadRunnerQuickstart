@@ -30,7 +30,7 @@ public class AutoTema extends LinearOpMode {
         telemetry.update();
 
         // se roteste 90 de grade
-        move(0, 0, -1);
+        move(0, 0, -0.25f);
         sleep(1000); // aici trebuie facut debug, nu stiu cat de rapid se roteste robotul
 
         telemetry.addData("Status", "(might have) Rotated.");
